@@ -5,7 +5,7 @@
 
 // ===== CONFIG =====
 const DEFAULT_BACKEND = 'https://rajashekar-ai-backend-production.up.railway.app/'; // Change to your deployed backend
-const LOCAL_BACKEND = 'http://localhost:3001';
+const LOCAL_BACKEND = 'https://rajashekar-ai-backend-production.up.railway.app/';
 
 let CONFIG = {
   backendUrl: localStorage.getItem('raj_backend_url') || LOCAL_BACKEND,
